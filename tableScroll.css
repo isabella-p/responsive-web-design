@@ -1,0 +1,77 @@
+h1{
+    color: sienna;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        color: lightslategray;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        color: seagreen;
+        font-size: 30px;
+        margin: auto;
+    }
+}
+
+body{
+    font: Courier;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;}
+
+table{
+    width: 100%;
+    margin: 2em 0;
+    margin-top: .5em;
+    border-collapse: collapse;
+    word-break: normal;
+    box-shadow: 4px 2px 5px #bc8f80;
+}
+
+td{
+    padding: .5 em;
+    vertical-align: top;
+    border: 1px solid #bbbbbb;
+}
+
+@media screen and (min-width: 300px) {
+    .marke {
+        color: sienna;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .marke {
+        color: lightslategray;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .marke {
+        color: seagreen;
+        font-size: 18px;
+        margin: auto;
+    }
+}
+
+th{
+    padding: 0.5em;
+    text-align: left;
+    text-align: left;
+    border: 1px solid #bbbbbb;
+    border-bottom: 3px solid #bbbbbb;
+    background: #bc8f80;
+}
+
+.tableScroll {
+    width: 100%;
+    overflow-y: auto;
+    display: scroll;
+    margin: 0 0 1em;
+}
